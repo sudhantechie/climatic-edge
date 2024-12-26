@@ -22,4 +22,25 @@ To run the project locally, follow these steps:
 
    ```bash
    git clone https://github.com/sudhantechie/climatic-edge.git
-   cd ClimaticEdge
+   cd climatic-edge
+
+2. **Create a `.env` file** in the root of the project and add the necessary environment variables. Below is an example of the environment variables you might need:
+
+   ```
+   REACT_APP_WEATHER_API_KEY=your_openweather_api_key
+   REACT_APP_NEWS_API_KEY=your_news_api_key
+   REACT_APP_STOCK_API_KEY=your_stock_market_api_key
+   ```
+
+   Replace `your_openweather_api_key`, `your_news_api_key`, and `your_stock_api_key` with your actual API keys.
+
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+   ```bash
+   npm start
+   ```
+
